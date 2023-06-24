@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+.game {
+    background-color: skyblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+.start-screen{
+    background-image: url(/graph/play.png);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+}
+
+
+.game-screen{
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    background-size:contain;
+}
+.game-over{
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+}
+
+.gameOverImg {
+    width: 100%;
+    height: 100%;
+    background-image: url(/graph/gameOver.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.start-screen:hover{
+    cursor: pointer;
+}
+.game-over:hover{
+    cursor: pointer;
+}
+
+.wizard{
+    background-image: url(/graph/normal.png);
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    position: absolute;
+    top: 45vh;
+    left: 100px;
+}
+
+.fireBall{
+    width: 50px;
+    height: 50px;
+    background-image: url(/graph/fire-ball.png);
+    background-size: cover;
+    position: absolute;
+}
+
+
+.bug{
+    width: 80px;
+    height: 80px;
+    background-image: url(/graph/monster.png);
+    background-size: cover;
+    position: absolute;
+}
+
+.scoreBar{
+    background-color: rgb(236, 236, 39);
+    position: absolute;
+    width: 160px;
+    top: 0px;
+    left: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
